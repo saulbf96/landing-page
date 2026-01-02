@@ -1,0 +1,20 @@
+/*
+acceder a todos los estilos de la pagina y empezamos agregar 
+accedemos a todos los elementos de after y before 
+para que los subelementos de ellos dos tengan lo mismo que esta en los {}
+*/
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*aqui ponemos para todo el body tengamos la fuente de google fonts 
+*/
+body{
+    font-family: "Nunito Sans", sans-serif;
+    background: #e6ecf8;
+}
